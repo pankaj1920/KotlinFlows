@@ -14,7 +14,7 @@
         android:theme="@style/Theme.KotlinFlow"
         tools:targetApi="31">
         <activity
-            android:name=".cheezy_code.CheezyCodeMainActivity"
+            android:name=".cheezy_code.StateFlowTutorialActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -23,13 +23,21 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".sample.SampleActivity"
+            android:name=".cheezy_code.SharedFlowActivity"
             android:exported="true">
-
         </activity>
         <activity
-            android:name=".CallbackFlowActivity"
+            android:name=".cheezy_code.KotlinFlowContextPreservationActivity"
             android:exported="true"></activity>
+        <activity
+            android:name=".cheezy_code.CheezyCodeMainActivity"
+            android:exported="true" />
+        <activity
+            android:name=".sample.SampleActivity"
+            android:exported="true" />
+        <activity
+            android:name=".CallbackFlowActivity"
+            android:exported="true" />
         <activity
             android:name=".MainActivity"
             android:exported="true">
